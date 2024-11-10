@@ -2,234 +2,234 @@
   {
     "title": "Oppenheimer",
     "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
-    "poster_url": "https://m.media-amazon.com/images/I/71qu4p5bnDL._AC_UF894,1000_QL80_.jpg",
+    "poster_url": "https://link-to-oppenheimer-poster.com",
     "release_date": "2023-07-21",
     "duration": "180 minutes",
     "rating": 8.6,
     "cast": [
       {
         "actor": "Cillian Murphy",
-        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cillian_Murphy_at_Berlinale_2024%2C_Ausschnitt.jpg/1200px-Cillian_Murphy_at_Berlinale_2024%2C_Ausschnitt.jpg"
+        "photo_url": "https://link-to-cillian-murphy-photo.com"
       },
       {
         "actor": "Emily Blunt",
-        "photo_url": "https://static.wikia.nocookie.net/studio-ghibli/images/2/20/Emily_Blunt.jpg/revision/latest/scale-to-width-down/2048?cb=20180728005106"
+        "photo_url": "https://link-to-emily-blunt-photo.com"
       }
     ]
   },
   {
     "title": "Barbie",
     "description": "Barbie, a doll living in 'Barbieland', goes on an adventure in the real world to find her true purpose.",
-    "poster_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZrij0_0Yd12jwSTzMFdMv5zKyOg21nMovuw&s",
+    "poster_url": "https://link-to-barbie-poster.com",
     "release_date": "2023-07-21",
     "duration": "114 minutes",
     "rating": 7.8,
     "cast": [
       {
         "actor": "Margot Robbie",
-        "photo_url": "https://cdn.britannica.com/32/201632-050-66971649/actress-Margot-Robbie-Australian-2018.jpg"
+        "photo_url": "https://link-to-margot-robbie-photo.com"
       },
       {
         "actor": "Ryan Gosling",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTQzMjkwNTQ2OF5BMl5BanBnXkFtZTgwNTQ4MTQ4MTE@._V1_.jpg"
+        "photo_url": "https://link-to-ryan-gosling-photo.com"
       }
     ]
   },
   {
     "title": "Guardians of the Galaxy Vol. 3",
     "description": "The Guardians embark on a mission to protect Rocket from a powerful new villain.",
-    "poster_url": "https://m.media-amazon.com/images/I/71OLMNKaKEL._AC_UF894,1000_QL80_.jpg",
+    "poster_url": "https://link-to-gotg3-poster.com",
     "release_date": "2023-05-05",
     "duration": "150 minutes",
     "rating": 8.1,
     "cast": [
       {
         "actor": "Chris Pratt",
-        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chris_Pratt_2018.jpg/800px-Chris_Pratt_2018.jpg"
+        "photo_url": "https://link-to-chris-pratt-photo.com"
       },
       {
         "actor": "Zoe Saldana",
-        "photo_url": "https://cdn.britannica.com/17/215017-050-0E006005/American-actress-Zoe-Saldana-2018.jpg"
+        "photo_url": "https://link-to-zoe-saldana-photo.com"
       }
     ]
   },
   {
     "title": "The Flash",
     "description": "Barry Allen uses his super speed to change the past but ends up creating a world without heroes, forcing him to race to undo his actions.",
-    "poster_url": "https://m.media-amazon.com/images/I/71XfuH2uI5L._AC_UF894,1000_QL80_.jpg",
+    "poster_url": "https://link-to-the-flash-poster.com",
     "release_date": "2023-06-16",
     "duration": "144 minutes",
     "rating": 6.8,
     "cast": [
       {
         "actor": "Ezra Miller",
-        "photo_url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/528415_v9_bc.jpg"
+        "photo_url": "https://link-to-ezra-miller-photo.com"
       },
       {
         "actor": "Michael Keaton",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTRlODM4M2QtOTUxMy00Y2NhLTk0ZWMtZGFjYWM2MTdmMzA0XkEyXkFqcGc@._V1_.jpg"
+        "photo_url": "https://link-to-michael-keaton-photo.com"
       }
     ]
   },
   {
     "title": "Indiana Jones and the Dial of Destiny",
     "description": "Indiana Jones races against time to retrieve a legendary artifact that can change the course of history.",
-    "poster_url": "https://lumiere-a.akamaihd.net/v1/images/p_disneymovies_indianajones_thedialofdestiny_poster_reb_fe545b43.jpeg",
+    "poster_url": "https://link-to-indiana-jones-poster.com",
     "release_date": "2023-06-30",
     "duration": "154 minutes",
     "rating": 6.7,
     "cast": [
       {
         "actor": "Harrison Ford",
-        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Harrison_Ford_by_Gage_Skidmore_3.jpg/800px-Harrison_Ford_by_Gage_Skidmore_3.jpg"
+        "photo_url": "https://link-to-harrison-ford-photo.com"
       },
       {
         "actor": "Phoebe Waller-Bridge",
-        "photo_url": "https://cdn.britannica.com/84/223184-050-A97DC67D/British-actress-Phoebe-Waller-Bridge-2017.jpg"
+        "photo_url": "https://link-to-phoebe-waller-bridge-photo.com"
       }
     ]
   },
   {
     "title": "Transformers: Rise of the Beasts",
     "description": "A new faction of Transformers joins the existing battle on Earth.",
-    "poster_url": "https://m.media-amazon.com/images/I/913qFhjEciL.jpg",
+    "poster_url": "https://link-to-transformers-rise-poster.com",
     "release_date": "2023-06-09",
     "duration": "127 minutes",
     "rating": 6.5,
     "cast": [
       {
         "actor": "Anthony Ramos",
-        "photo_url": "https://goldenglobes.com/wp-content/uploads/2023/10/anthony-ramos-nom-pro-gettyimages-1354775407-scaled.jpg?w=2000"
+        "photo_url": "https://link-to-anthony-ramos-photo.com"
       },
       {
         "actor": "Dominique Fishback",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BOTUwMWE5NDQtZmI4NC00MDA5LTlhZjYtNGQzODNkNTU5M2M3XkEyXkFqcGc@._V1_.jpg"
+        "photo_url": "https://link-to-dominique-fishback-photo.com"
       }
     ]
   },
   {
     "title": "Spider-Man: Across the Spider-Verse",
     "description": "Miles Morales returns to the multiverse and meets a team of Spider-People tasked with protecting its very existence.",
-    "poster_url": "https://cdn.marvel.com/content/1x/across_the_spider-verse.jpg",
+    "poster_url": "https://link-to-spider-man-poster.com",
     "release_date": "2023-06-02",
     "duration": "140 minutes",
     "rating": 8.9,
     "cast": [
       {
         "actor": "Shameik Moore",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BMjAwNDU2OTc5M15BMl5BanBnXkFtZTgwOTk0ODMyNDE@._V1_.jpg"
+        "photo_url": "https://link-to-shameik-moore-photo.com"
       },
       {
         "actor": "Hailee Steinfeld",
-        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQORkePxE7y48dcsrTt2Xto6a5v4_MTzmX2g&s"
+        "photo_url": "https://link-to-hailee-steinfeld-photo.com"
       }
     ]
   },
   {
     "title": "Mission: Impossible – Dead Reckoning Part One",
     "description": "Ethan Hunt and his team embark on a high-stakes mission to track down a new, highly-destructive weapon.",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BN2U4OTdmM2QtZTkxYy00ZmQyLTg2N2UtMDdmMGJmNDhlZDU1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "poster_url": "https://link-to-mission-impossible-poster.com",
     "release_date": "2023-07-14",
     "duration": "163 minutes",
     "rating": 8.0,
     "cast": [
       {
         "actor": "Tom Cruise",
-        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/1200px-Tom_Cruise_by_Gage_Skidmore_2.jpg"
+        "photo_url": "https://link-to-tom-cruise-photo.com"
       },
       {
         "actor": "Rebecca Ferguson",
-        "photo_url": "https://cdn.britannica.com/39/247539-050-B8127C0B/Rebecca-Ferguson-actress-BAFTA-Awards-2023.jpg"
+        "photo_url": "https://link-to-rebecca-ferguson-photo.com"
       }
     ]
   },
   {
     "title": "The Little Mermaid",
     "description": "A young mermaid makes a dangerous deal to become human and explore the world above the ocean.",
-    "poster_url": "https://lakesideohio.b-cdn.net/wp-content/uploads/2023/08/The-Little-Mermaid-2023.jpeg",
+    "poster_url": "https://link-to-the-little-mermaid-poster.com",
     "release_date": "2023-05-26",
     "duration": "135 minutes",
     "rating": 7.1,
     "cast": [
       {
         "actor": "Halle Bailey",
-        "photo_url": "https://ntvb.tmsimg.com/assets/assets/1181841_v9_ba.jpg"
+        "photo_url": "https://link-to-halle-bailey-photo.com"
       },
       {
         "actor": "Jonah Hauer-King",
-        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jonah_Hauer-King_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg/1200px-Jonah_Hauer-King_at_the_2024_Toronto_International_Film_Festival_3_%28cropped%29.jpg"
+        "photo_url": "https://link-to-jonah-hauer-king-photo.com"
       }
     ]
   },
   {
     "title": "Renfield",
     "description": "Renfield, Dracula's loyal servant, finds a new lease on life when he falls in love.",
-    "poster_url": "https://musicart.xboxlive.com/7/a2c26500-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    "poster_url": "https://link-to-renfield-poster.com",
     "release_date": "2023-04-14",
     "duration": "93 minutes",
     "rating": 6.4,
     "cast": [
       {
         "actor": "Nicolas Cage",
-        "photo_url": "hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSKYNpHnO1NLNvUYj732WTAK3FJZewPj47KA&s"
+        "photo_url": "https://link-to-nicolas-cage-photo.com"
       },
       {
         "actor": "Nicholas Hoult",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTUxMTYxNzMzNF5BMl5BanBnXkFtZTcwMTU0NTcxOQ@@._V1_.jpg"
+        "photo_url": "https://link-to-nicholas-hoult-photo.com"
       }
     ]
   },
   {
     "title": "The Pope's Exorcist",
     "description": "An exorcist from the Vatican investigates demonic possessions.",
-    "poster_url": "https://m.media-amazon.com/images/I/91J92etle9L._AC_UF1000,1000_QL80_.jpg",
+    "poster_url": "https://link-to-popes-exorcist-poster.com",
     "release_date": "2023-04-07",
     "duration": "103 minutes",
     "rating": 6.2,
     "cast": [
       {
         "actor": "Russell Crowe",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTQyMTExNTMxOF5BMl5BanBnXkFtZTcwNDg1NzkzNw@@._V1_.jpg"
+        "photo_url": "https://link-to-russell-crowe-photo.com"
       },
       {
         "actor": "Daniel Zovatto",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BYTVmYjVkZWItNGVkMC00ZjM5LTg5ZmMtN2Y0OGFjZjg1ZTMwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+        "photo_url": "https://link-to-daniel-zovatto-photo.com"
       }
     ]
   },
   {
     "title": "Air",
     "description": "The story of the birth of Air Jordans and Nike's journey to create a revolutionary basketball shoe line.",
-    "poster_url": "https://i.ebayimg.com/images/g/uMQAAOSw2A5kLKZ~/s-l1200.jpg",
+    "poster_url": "https://link-to-air-poster.com",
     "release_date": "2023-04-05",
     "duration": "112 minutes",
     "rating": 7.6,
     "cast": [
       {
         "actor": "Matt Damon",
-        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_.jpg"
+        "photo_url": "https://link-to-matt-damon-photo.com"
       },
       {
         "actor": "Ben Affleck",
-        "photo_url": "https://cdn.britannica.com/33/242333-050-95A19CE8/Actor-Ben-Affleck-premiere-AIR-March-2023.jpg"
+        "photo_url": "https://link-to-ben-affleck-photo.com"
       }
     ]
   },
   {
     "title": "Beau Is Afraid",
     "description": "A surrealist comedy horror film following Beau, who goes on an epic journey following the sudden passing of his mother.",
-    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTdmYmQ5MjctYzU3NS00N2I0LTkwYTYtZWMxNTVhOTRkODA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "poster_url": "https://link-to-beau-is-afraid-poster.com",
     "release_date": "2023-04-21",
     "duration": "179 minutes",
     "rating": 7.1,
     "cast": [
       {
         "actor": "Joaquin Phoenix",
-        "photo_url": "https://cdn.britannica.com/63/215263-050-6C78005B/American-actor-Joaquin-Phoenix-2020.jpg"
+        "photo_url": "https://link-to-joaquin-phoenix-photo.com"
       },
       {
         "actor": "Nathan Lane",
-        "photo_url": "https://cdn.britannica.com/11/232211-050-660B7C97/American-actor-Nathan-Lane-2014.jpg"
+        "photo_url": "https://link-to-nathan-lane-photo.com"
       }
     ]
   }
