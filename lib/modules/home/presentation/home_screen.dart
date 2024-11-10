@@ -14,16 +14,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Future<void> readJson() async {
-    final String response =
-        await rootBundle.loadString('assets/movie_data.json');
-    final data = await json.decode(response);
-    log(data.runtimeType());
-  }
-
   @override
   Widget build(BuildContext context) {
-    readJson();
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home screen'),
