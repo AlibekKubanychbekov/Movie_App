@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:get_it/get_it.dart';
 import 'package:movie_app/core/service/auto_router.dart';
-import 'package:movie_app/modules/data/repository/movies_repo_impl.dart';
-import 'package:movie_app/modules/home/domain/usecase/fetch_movies_usecase.dart';
-import 'package:movie_app/modules/home/presentation/bloc/movies_bloc.dart';
+import 'package:movie_app/core/service/service_locator.dart' as get_it;
+
+final di = GetIt.instance;
 
 void main() {
+  get_it.setup(di);
   final appRouter = AppRouter();
   runApp(MovieApp(
     router: appRouter,
@@ -21,19 +22,8 @@ class MovieApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiBlocProvider(
-      providers: [
-        BlocProvider(
-          create: (context) => MoviesBloc(
-            fetchMoviesUsecase: FetchMoviesUsecase(
-              repo: MoviesRepoImpl(),
-            ),
-          ),
-        ),
-      ],
-      child: MaterialApp.router(
-        routerConfig: router.config(),
-      ),
+    return MaterialApp.router(
+      routerConfig: router.config(),
     );
   }
 }
