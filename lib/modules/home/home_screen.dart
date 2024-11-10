@@ -12,25 +12,6 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Home screen'),
       ),
-      body: Column(
-        children: [
-          ElevatedButton(
-              onPressed: () {
-                context.router.push(const HomeRoute());
-              },
-              child: const Text('Home Screen')),
-          ElevatedButton(
-              onPressed: () {
-                context.router.push(const FirstRoute());
-              },
-              child: const Text('First Screen')),
-          ElevatedButton(
-              onPressed: () {
-                context.router.push(const SecondRoute());
-              },
-              child: const Text('Second Screen')),
-        ],
-      ),
     );
   }
 }
