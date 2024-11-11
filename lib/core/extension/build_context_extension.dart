@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
 extension BuildContextExtension on BuildContext {
-  double get height => MediaQuery.of(this).size.height;
-  double get width => MediaQuery.of(this).size.width;
+  double get fullVerticalSize => MediaQuery.of(this).size.height;
+  double get fullHorizontalSize => MediaQuery.of(this).size.width;
 }

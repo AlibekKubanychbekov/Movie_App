@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class BackgroundColor extends StatelessWidget {
-  const BackgroundColor({
+class BackgroundCircle extends StatelessWidget {
+  const BackgroundCircle({
     required this.color,
     this.radius = 200,
     super.key,
