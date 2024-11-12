@@ -2,36 +2,36 @@
   {
     "title": "Oppenheimer",
     "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
-    "poster_url": "https://link-to-oppenheimer-poster.com",
+    "poster_url": "https://rbposter.com/cdn/shop/files/Marcoblancocomplethopemh.jpg?v=1693279132&width=2950",
     "release_date": "2023-07-21",
     "duration": "180 minutes",
     "rating": 8.6,
     "cast": [
       {
         "actor": "Cillian Murphy",
-        "photo_url": "https://link-to-cillian-murphy-photo.com"
+        "photo_url": "https://i.pinimg.com/736x/ae/e0/c4/aee0c4da5c3b5b1409ec00e962ba2de4.jpg"
       },
       {
         "actor": "Emily Blunt",
-        "photo_url": "https://link-to-emily-blunt-photo.com"
+        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRufnmnHNckou8SdeGJ3jdBbMc2GpfcAbZW-w&s"
       }
     ]
   },
   {
     "title": "Barbie",
     "description": "Barbie, a doll living in 'Barbieland', goes on an adventure in the real world to find her true purpose.",
-    "poster_url": "https://link-to-barbie-poster.com",
+    "poster_url": "https://image.tmdb.org/t/p/original/rt6WA4WVaiVdaArNafx4JqOuLA3.jpg",
     "release_date": "2023-07-21",
     "duration": "114 minutes",
     "rating": 7.8,
     "cast": [
       {
         "actor": "Margot Robbie",
-        "photo_url": "https://link-to-margot-robbie-photo.com"
+        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCaIuGQ704a8FQerNXDS1gjHSUSULOf8EJQ&s"
       },
       {
         "actor": "Ryan Gosling",
-        "photo_url": "https://link-to-ryan-gosling-photo.com"
+        "photo_url": "https://media.themoviedb.org/t/p/w500/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
       }
     ]
   },
