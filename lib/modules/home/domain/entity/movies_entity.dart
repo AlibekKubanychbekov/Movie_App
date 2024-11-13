@@ -15,6 +15,15 @@ class MoviesEntity {
       required this.duration,
       required this.rating,
       required this.cast});
+
+  MoviesEntity.empty()
+      : title = '',
+        description = '',
+        posterUrl = '',
+        releaseDate = '',
+        duration = '',
+        rating = 0,
+        cast = [];
 }
 
 class CastEntity {
