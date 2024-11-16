@@ -42,9 +42,13 @@ class MovieDeetailsBg extends StatelessWidget {
           alignment: Alignment.bottomCenter,
           child: Container(
             height: context.fullVerticalSize / 4,
-            decoration: const BoxDecoration(color: Colors.black, boxShadow: [
-              BoxShadow(blurRadius: 100, spreadRadius: 50, color: Colors.black)
-            ]),
+            decoration: const BoxDecoration(
+              color: Colors.black,
+              boxShadow: [
+                BoxShadow(
+                    blurRadius: 100, spreadRadius: 100, color: Colors.black)
+              ],
+            ),
           ),
         )
       ],

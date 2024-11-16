@@ -38,7 +38,7 @@
   {
     "title": "Guardians of the Galaxy Vol. 3",
     "description": "The Guardians embark on a mission to protect Rocket from a powerful new villain.",
-    "poster_url": "https://preview.redd.it/official-poster-for-the-guardians-of-the-galaxy-vol-3-v0-uzqvcih10d3a1.jpg?auto=webp&s=3f1b2fe12dc3d392d1c8d9963d6394622feac186",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BOTJhOTMxMmItZmE0Ny00MDc3LWEzOGEtOGFkMzY4MWYyZDQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "release_date": "2023-05-05",
     "duration": "150 minutes",
     "rating": 8.1,
@@ -49,7 +49,7 @@
       },
       {
         "actor": "Zoe Saldana",
-        "photo_url": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1473064873-640eef8d397b5.jpg?crop=0.598xw:0.897xh;0.229xw,0.103xh&resize=1120:*"
+        "photo_url": "https://media.glamour.com/photos/5695817b085ae0a8503705a8/master/pass/entertainment-2015-06-zoe-saldana-getty-main.jpg"
       }
     ]
   },
@@ -99,7 +99,7 @@
     "cast": [
       {
         "actor": "Anthony Ramos",
-        "photo_url": "https://hips.hearstapps.com/hmg-prod/images/anthony-ramos-one-of-the-recipients-of-the-rising-stars-of-news-photo-1686256108.jpg?crop=0.631xw:0.503xh;0.196xw,0.0312xh&resize=640:*"
+        "photo_url": "https://m.media-amazon.com/images/M/MV5BMjEzYzU3YmQtMzExYy00Y2YwLTk1NDYtNzc3NTcyNDkxMDRjXkEyXkFqcGc@._V1_.jpg"
       },
       {
         "actor": "Dominique Fishback",
@@ -157,7 +157,7 @@
       },
       {
         "actor": "Jonah Hauer-King",
-        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZN-_eEI-8cbopZrRFNFtGWJ4Fngl32ATu-w&s"
+        "photo_url": "https://image.tmdb.org/t/p/original/7MWSV7gg8OQqOirQyWMBr8aQt3G.jpg"
       }
     ]
   },
@@ -193,43 +193,43 @@
       },
       {
         "actor": "Daniel Zovatto",
-        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8_aesapNnSbxLqGFR6165hnZhGrWZC7jaeg&s"
+        "photo_url": "https://m.media-amazon.com/images/M/MV5BYTVmYjVkZWItNGVkMC00ZjM5LTg5ZmMtN2Y0OGFjZjg1ZTMwXkEyXkFqcGc@._V1_.jpg"
       }
     ]
   },
   {
     "title": "Air",
     "description": "The story of the birth of Air Jordans and Nike's journey to create a revolutionary basketball shoe line.",
-    "poster_url": "https://link-to-air-poster.com",
+    "poster_url": "https://image.tmdb.org/t/p/original/iKcnbqhKvlwfF4CnMVlRrYlOvM5.jpg",
     "release_date": "2023-04-05",
     "duration": "112 minutes",
     "rating": 7.6,
     "cast": [
       {
         "actor": "Matt Damon",
-        "photo_url": "https://link-to-matt-damon-photo.com"
+        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_FMjpg_UX1000_.jpg"
       },
       {
         "actor": "Ben Affleck",
-        "photo_url": "https://link-to-ben-affleck-photo.com"
+        "photo_url": "https://m.media-amazon.com/images/M/MV5BNTFjZDU5NmYtYzZlMy00YThmLTg5ZjUtYjkyZWI2OTk2Mjc1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
       }
     ]
   },
   {
     "title": "Beau Is Afraid",
     "description": "A surrealist comedy horror film following Beau, who goes on an epic journey following the sudden passing of his mother.",
-    "poster_url": "https://link-to-beau-is-afraid-poster.com",
+    "poster_url": "https://m.media-amazon.com/images/M/MV5BMTdmYmQ5MjctYzU3NS00N2I0LTkwYTYtZWMxNTVhOTRkODA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "release_date": "2023-04-21",
     "duration": "179 minutes",
     "rating": 7.1,
     "cast": [
       {
         "actor": "Joaquin Phoenix",
-        "photo_url": "https://link-to-joaquin-phoenix-photo.com"
+        "photo_url": "https://cdn.britannica.com/63/215263-050-6C78005B/American-actor-Joaquin-Phoenix-2020.jpg"
       },
       {
         "actor": "Nathan Lane",
-        "photo_url": "https://link-to-nathan-lane-photo.com"
+        "photo_url": "https://m.media-amazon.com/images/M/MV5BMTEwMTc1MjQ3NzFeQTJeQWpwZ15BbWU3MDEzNjEwODE@._V1_FMjpg_UX1000_.jpg"
       }
     ]
   }

@@ -22,12 +22,12 @@ class BackgroundCircles extends StatelessWidget {
       height: 1,
       width: 1,
       decoration: BoxDecoration(
-        color: AppColors.bgOpacityColor,
+        color: AppColors.orangeColor,
         shape: BoxShape.circle,
         boxShadow: [
           BoxShadow(
             blurRadius: 250,
-            color: AppColors.bgOpacityColor.withOpacity(0.2),
+            color: AppColors.orangeColor.withOpacity(0.2),
             spreadRadius: 250,
           )
         ],

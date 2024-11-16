@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:movie_app/modules/data/model/movies_model.dart';
+import 'package:movie_app/modules/home/data/model/movies_model.dart';
 import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
 import 'package:movie_app/modules/home/domain/repository/movies_repo.dart';
 
