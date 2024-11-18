@@ -9,7 +9,8 @@ class FetchMoviesUsecase
 
   FetchMoviesUsecase({required MoviesRepo repo}) : _repo = repo;
   @override
-  Future<List<MoviesEntity>> execute({required BaseParams params}) {
+  Future<List<MoviesEntity>> execute(
+      {required FetchMoviesUsecaseParams params}) {
     return _repo.fetchMovies();
   }
 }

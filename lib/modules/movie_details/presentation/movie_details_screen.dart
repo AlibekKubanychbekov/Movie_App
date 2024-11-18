@@ -5,8 +5,11 @@ import 'package:movie_app/core/colors/app_colors.dart';
 import 'package:movie_app/core/extension/build_context_extension.dart';
 import 'package:movie_app/core/extension/int_extension.dart';
 import 'package:movie_app/core/mixin/date_time_mixin.dart';
+import 'package:movie_app/main.dart';
 import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
-import 'package:movie_app/modules/home/presentation/widget/movie_details_bg.dart';
+import 'package:movie_app/modules/home/features/favorites/bloc/favorite_movies_bloc.dart';
+import 'package:movie_app/modules/home/features/favorites/bloc/favorte_movies_event.dart';
+import 'package:movie_app/modules/home/features/home/widget/movie_details_bg.dart';
 
 @RoutePage()
 class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
@@ -34,6 +37,15 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
               ),
             ),
           ),
+          Positioned(
+            top: 50,
+            left: 10,
+            child: BackButton(
+              style: ElevatedButton.styleFrom(
+                iconColor: Colors.white,
+              ),
+            ),
+          ),
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
@@ -51,14 +63,35 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                 ],
               ),
               child: ListView(
+                padding: const EdgeInsets.only(
+                  top: 40,
+                  left: 20,
+                  right: 20,
+                ),
                 children: [
-                  Text(
-                    moviesEntity.title,
-                    style: const TextStyle(
-                      fontSize: 24,
-                      color: Colors.white,
-                    ),
+                  Row(
+                    children: [
+                      Text(
+                        moviesEntity.title,
+                        style: const TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w800,
+                          color: Colors.white,
+                        ),
+                      ),
+                      IconButton(
+                          onPressed: () {
+                            di<FavoriteMoviesBloc>().add(
+                              AddToFavoritesEvent(entity: moviesEntity),
+                            );
+                          },
+                          icon: const Icon(
+                            Icons.favorite,
+                            color: AppColors.bgColor,
+                          ))
+                    ],
                   ),
+                  25.verticalSpace,
                   Text(
                     '${formatDateTime(moviesEntity.releaseDate)} - ${moviesEntity.duration}',
                     style: const TextStyle(
@@ -66,6 +99,17 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                       color: Colors.white,
                     ),
                   ),
+                  10.verticalSpace,
+                  Text(
+                    moviesEntity.rating.toString(),
+                    style: const TextStyle(
+                      fontSize: 30,
+                      color: AppColors.bgColor,
+                    ),
+                  ),
+                  10.verticalSpace,
+                  _generateRating(moviesEntity.rating),
+                  20.verticalSpace,
                   Text(
                     moviesEntity.description,
                     style: const TextStyle(
@@ -73,6 +117,7 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                       color: Colors.white,
                     ),
                   ),
+                  30.verticalSpace,
                   const Text(
                     'Cast',
                     style: TextStyle(
@@ -99,9 +144,37 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                 ],
               ),
             ),
-          ),
+          )
         ],
       ),
     );
   }
+}
+
+Widget _generateRating(double rating) {
+  final count = rating.toInt() / 2;
+  List<Widget> stars = [];
+  for (var i = 0; i < 5; i++) {
+    if (i > count) {
+      stars.add(const Icon(
+        Icons.star,
+        color: AppColors.bgColor,
+      ));
+    } else {
+      stars.add(const Icon(
+        Icons.star_border,
+        color: AppColors.bgColor,
+      ));
+    }
+  }
+  stars.add(10.horizontalSpace);
+  stars.add(
+    Text(
+      '${count.toInt()}/5 star rating',
+      style: const TextStyle(fontSize: 16, color: AppColors.bgColor),
+    ),
+  );
+  return Row(
+    children: stars,
+  );
 }

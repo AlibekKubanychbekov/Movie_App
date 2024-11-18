@@ -1,8 +1,8 @@
 import 'package:movie_app/core/base/base_bloc.dart';
 import 'package:movie_app/core/enums/state_status.dart';
 import 'package:movie_app/modules/home/domain/usecase/fetch_movies_usecase.dart';
-import 'package:movie_app/modules/home/presentation/bloc/movies_event.dart';
-import 'package:movie_app/modules/home/presentation/bloc/movies_state.dart';
+import 'package:movie_app/modules/home/features/home/bloc/movies_event.dart';
+import 'package:movie_app/modules/home/features/home/bloc/movies_state.dart';
 
 class MoviesBloc extends BaseBloc<MoviesEvent, MoviesState> {
   final FetchMoviesUsecase _fetchMoviesUsecase;
