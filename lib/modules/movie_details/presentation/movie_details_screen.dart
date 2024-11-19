@@ -71,12 +71,14 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                 children: [
                   Row(
                     children: [
-                      Text(
-                        moviesEntity.title,
-                        style: const TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.w800,
-                          color: Colors.white,
+                      Expanded(
+                        child: Text(
+                          moviesEntity.title,
+                          style: const TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.w800,
+                            color: Colors.white,
+                          ),
                         ),
                       ),
                       IconButton(

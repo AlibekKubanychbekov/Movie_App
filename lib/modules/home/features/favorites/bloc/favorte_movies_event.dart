@@ -8,3 +8,5 @@ class AddToFavoritesEvent extends FavorteMoviesEvent {
 
   AddToFavoritesEvent({required this.entity});
 }
+
+class FetchFavoriteMovies extends FavorteMoviesEvent {}

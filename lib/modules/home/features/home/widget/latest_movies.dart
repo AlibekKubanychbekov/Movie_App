@@ -1,14 +1,17 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app/core/colors/app_colors.dart';
 import 'package:movie_app/core/enums/state_status.dart';
+import 'package:movie_app/core/extension/int_extension.dart';
 import 'package:movie_app/core/mixin/date_time_mixin.dart';
 import 'package:movie_app/core/service/auto_router.gr.dart';
 import 'package:movie_app/main.dart';
-import 'package:movie_app/modules/home/presentation/bloc/movies_bloc.dart';
-import 'package:movie_app/modules/home/presentation/bloc/movies_event.dart';
-import 'package:movie_app/modules/home/presentation/bloc/movies_state.dart';
+import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
+import 'package:movie_app/modules/home/features/home/bloc/movies_bloc.dart';
+import 'package:movie_app/modules/home/features/home/bloc/movies_event.dart';
+import 'package:movie_app/modules/home/features/home/bloc/movies_state.dart';
 import 'package:shimmer/shimmer.dart';
 
 class LatestMovies extends StatelessWidget with DateTimeMixin {
@@ -25,20 +28,12 @@ class LatestMovies extends StatelessWidget with DateTimeMixin {
               itemCount: 5,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) => GestureDetector(
-<<<<<<< HEAD
-                onTap: () => context.router.push(MovieDetailsRoute(
-=======
                 onTap: () => context.router.push<Object>(MovieDetailsRoute(
->>>>>>> 0d265b9 (create date mixin)
                   moviesEntity: state.model?[index] ?? MoviesEntity.empty(),
                 )),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-<<<<<<< HEAD
-                  children: [
-=======
                   children: <Widget>[
->>>>>>> 0d265b9 (create date mixin)
                     Expanded(
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(25),

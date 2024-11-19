@@ -16,5 +16,5 @@ class SharedPrefs {
 }
 
 class SharedPrefsKeys {
-  static const favoritesMovies = 'FAVORITES_MOVIES';
+  static const favoriteMovies = 'FAVORITES_MOVIES';
 }
