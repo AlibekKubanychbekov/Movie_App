@@ -6,7 +6,7 @@ import 'package:movie_app/core/extension/build_context_extension.dart';
 import 'package:movie_app/core/extension/int_extension.dart';
 import 'package:movie_app/core/mixin/date_time_mixin.dart';
 import 'package:movie_app/main.dart';
-import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
+import 'package:movie_app/modules/home/domain/entity/users_entity.dart';
 import 'package:movie_app/modules/home/features/favorites/bloc/favorite_movies_bloc.dart';
 import 'package:movie_app/modules/home/features/favorites/bloc/favorte_movies_event.dart';
 import 'package:movie_app/modules/home/features/home/widget/movie_details_bg.dart';
@@ -59,7 +59,7 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                   BoxShadow(
                       blurRadius: 50,
                       spreadRadius: 50,
-                      color: AppColors.bgColor.withOpacity(0.5)),
+                      color: AppColors.bgOpacity.withOpacity(0.5)),
                 ],
               ),
               child: ListView(
@@ -83,8 +83,8 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                       ),
                       IconButton(
                           onPressed: () {
-                            di<FavoriteMoviesBloc>().add(
-                              AddToFavoritesEvent(entity: moviesEntity),
+                            di<FavoriteUsersBloc>().add(
+                              AddToUsersEvent(entity: moviesEntity),
                             );
                           },
                           icon: const Icon(
@@ -119,7 +119,7 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                       color: Colors.white,
                     ),
                   ),
-                  30.verticalSpace,
+                  20.verticalSpace,
                   const Text(
                     'Cast',
                     style: TextStyle(
@@ -127,7 +127,7 @@ class MovieDetailsScreen extends StatelessWidget with DateTimeMixin {
                       color: Colors.white,
                     ),
                   ),
-                  25.verticalSpace,
+                  20.verticalSpace,
                   SizedBox(
                     height: 100,
                     child: ListView.separated(
@@ -159,12 +159,12 @@ Widget _generateRating(double rating) {
   for (var i = 0; i < 5; i++) {
     if (i > count) {
       stars.add(const Icon(
-        Icons.star,
+        Icons.star_border,
         color: AppColors.bgColor,
       ));
     } else {
       stars.add(const Icon(
-        Icons.star_border,
+        Icons.star,
         color: AppColors.bgColor,
       ));
     }

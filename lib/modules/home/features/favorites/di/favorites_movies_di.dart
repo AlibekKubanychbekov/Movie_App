@@ -13,14 +13,14 @@ class FavoritesMoviesDi extends BaseDi {
       ),
     );
     di.registerFactory(
-      () => AddToFavoritesUsecase(
+      () => AddToUsersUsecase(
         repository: di(),
       ),
     );
     di.registerFactory(
-      () => FavoriteMoviesBloc(
-        addToFavoritesUsecase: di(),
-        favoriteMoviesUsecase: di(),
+      () => FavoriteUsersBloc(
+        addToUsersUsecase: di(),
+        favoriteUsersUsecase: di(),
       ),
     );
   }

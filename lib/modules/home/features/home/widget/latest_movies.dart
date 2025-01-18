@@ -8,10 +8,10 @@ import 'package:movie_app/core/extension/int_extension.dart';
 import 'package:movie_app/core/mixin/date_time_mixin.dart';
 import 'package:movie_app/core/service/auto_router.gr.dart';
 import 'package:movie_app/main.dart';
-import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
-import 'package:movie_app/modules/home/features/home/bloc/movies_bloc.dart';
-import 'package:movie_app/modules/home/features/home/bloc/movies_event.dart';
-import 'package:movie_app/modules/home/features/home/bloc/movies_state.dart';
+import 'package:movie_app/modules/home/domain/entity/users_entity.dart';
+import 'package:movie_app/modules/home/features/home/bloc/users_bloc.dart';
+import 'package:movie_app/modules/home/features/home/bloc/users_event.dart';
+import 'package:movie_app/modules/home/features/home/bloc/users_state.dart';
 import 'package:shimmer/shimmer.dart';
 
 class LatestMovies extends StatelessWidget with DateTimeMixin {
@@ -20,8 +20,8 @@ class LatestMovies extends StatelessWidget with DateTimeMixin {
   @override
   Widget build(BuildContext context) {
     return BlocProvider.value(
-      value: di<MoviesBloc>()..add(FetchMoviesEvent()),
-      child: BlocBuilder<MoviesBloc, MoviesState>(
+      value: di<UsersBloc>()..add(FetchUsersEvent()),
+      child: BlocBuilder<UsersBloc, UsersState>(
         builder: (context, state) {
           if (state.status == StateStatus.loaded) {
             return ListView.separated(

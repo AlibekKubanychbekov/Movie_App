@@ -1,12 +1,12 @@
 import 'package:movie_app/core/base/base_event.dart';
-import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
+import 'package:movie_app/modules/home/domain/entity/users_entity.dart';
 
-class FavorteMoviesEvent extends BaseEvent {}
+class FavorteUsersEvent extends BaseEvent {}
 
-class AddToFavoritesEvent extends FavorteMoviesEvent {
-  final MoviesEntity entity;
+class AddToUsersEvent extends FavorteUsersEvent {
+  final UsersEntity entity;
 
-  AddToFavoritesEvent({required this.entity});
+  AddToUsersEvent({required this.entity});
 }
 
-class FetchFavoriteMovies extends FavorteMoviesEvent {}
+class FetchUserMovies extends FavorteUsersEvent {}

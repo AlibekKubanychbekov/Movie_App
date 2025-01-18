@@ -1,18 +1,17 @@
 import 'package:movie_app/core/base/base_params.dart';
 import 'package:movie_app/core/base/base_usecase.dart';
-import 'package:movie_app/modules/home/domain/entity/movies_entity.dart';
-import 'package:movie_app/modules/home/domain/repository/movies_repo.dart';
+import 'package:movie_app/modules/home/domain/entity/users_entity.dart';
+import 'package:movie_app/modules/home/domain/repository/users_repo.dart';
 
-class FetchMoviesUsecase
-    implements BaseUsecase<List<MoviesEntity>, FetchMoviesUsecaseParams> {
-  final MoviesRepo _repo;
+class FetchUsersUsecase
+    implements BaseUsecase<List<UsersEntity>, FetchUsersUsecaseParams> {
+  final UsersRepo _repo;
 
-  FetchMoviesUsecase({required MoviesRepo repo}) : _repo = repo;
+  FetchUsersUsecase({required UsersRepo repo}) : _repo = repo;
   @override
-  Future<List<MoviesEntity>> execute(
-      {required FetchMoviesUsecaseParams params}) {
-    return _repo.fetchMovies();
+  Future<List<UsersEntity>> execute({required FetchUsersUsecaseParams params}) {
+    return _repo.fetchUsers();
   }
 }
 
-class FetchMoviesUsecaseParams extends BaseParams {}
+class FetchUsersUsecaseParams extends BaseParams {}

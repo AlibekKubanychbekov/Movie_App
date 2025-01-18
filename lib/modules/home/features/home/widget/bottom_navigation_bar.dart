@@ -89,7 +89,8 @@ class BottomNavigation extends StatelessWidget {
                                   'Стань невидимой в ленте и чатахб скрой объявление и наслаждайся <Space> незамеченным',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
-                                    color: AppColors.bgColor.withOpacity(0.5),
+                                    color: AppColors.bgColor
+                                        .withValues(alpha: 0.5),
                                   ),
                                 ),
                               ],

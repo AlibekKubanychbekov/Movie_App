@@ -9,4 +9,6 @@ class AppColors {
   static const roseColor = Color(0xff371A45);
   static const bgColor = Color(0xffD9D9D9);
   static const purpleShadeColor = Color(0xff0D1333);
+  static const mainColor = Color(0xff2C2C2C);
+  static const bgOpacity = Color(0xff0D0707);
 }
